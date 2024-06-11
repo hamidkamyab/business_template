@@ -1,13 +1,14 @@
 import * as Vsc from "react-icons/vsc";
-import { Navbar } from "./components";
+import { Header, Navbar } from "./components";
 
 function App() {
   return (
     <div className="App vh-100 d-flex flex-column justify-content-between overflow-x-hidden">
-      <div className="main">
+      <div className="main position-relative">
           
-          <div className="header vh-100">
+          <div className="headerBox vh-100">
             <Navbar/>
+            <Header />
           </div>
 
       </div>

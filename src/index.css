@@ -1,6 +1,10 @@
 :root {
     --dark: #1e272e;
+    --light: #d2dae2;
     --light-red: #ff5e57;
+    --yellow: #ffa801;
+    --light-yellow: #ffc048;
+    --blue: #0fbcf9;
 }
 
 body {
@@ -14,7 +18,7 @@ body {
     list-style: none;
 }
 
-.header {
+.headerBox {
     background-color: var(--dark);
 }
 
@@ -24,4 +28,30 @@ section {
 
 a {
     text-decoration: none !important;
+}
+
+.hr {
+    height: 1px;
+    background-color: var(--light);
+    width: 100%;
+}
+
+.hr-25 {
+    width: 25%;
+}
+
+.hr-50 {
+    width: 50%;
+}
+
+.hr-75 {
+    width: 75%;
+}
+
+.hr-100 {
+    width: 100%;
+}
+
+.hr-light {
+    background-color: var(--light);
 }
