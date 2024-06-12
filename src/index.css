@@ -5,6 +5,8 @@
     --yellow: #ffa801;
     --light-yellow: #ffc048;
     --blue: #0fbcf9;
+    --orange: #ffa801;
+    --purple-blue: #3c40c6;
 }
 
 body {
@@ -18,12 +20,21 @@ body {
     list-style: none;
 }
 
+.App {
+    direction: ltr;
+}
+
+.main {
+    direction: rtl;
+}
+
 .headerBox {
     background-color: var(--dark);
 }
 
 section {
     padding: 20px 0 !important;
+    overflow: hidden !important;
 }
 
 a {
@@ -54,4 +65,11 @@ a {
 
 .hr-light {
     background-color: var(--light);
+}
+
+@media (min-width:768px) {
+    .headerBox {
+        background: url('../public/imgs/header-bg.png') var(--dark);
+        background-repeat: repeat-y;
+    }
 }

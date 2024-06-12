@@ -1,0 +1,26 @@
+﻿#features .title .icon {
+    color: var(--light-red) !important;
+}
+
+#features .under-title {
+    font-size: 11px;
+}
+
+#features .features-list img {
+    max-width: 240px;
+}
+
+#features .iconBox {
+    width: 34px;
+    height: 34px;
+    color: var(--purple-blue)
+}
+
+#features .textBox h6 {
+    font-size: 15px;
+    color: var(--purple-blue);
+}
+
+#features .textBox p {
+    font-size: 12px;
+}

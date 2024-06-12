@@ -1,22 +1,22 @@
-﻿.navbar {
+﻿#navbar {
     background-color: var(--dark);
-    z-index: 10;
+    z-index: 10 !important;
 }
 
-.navbar,
-.navbar * {
+#navbar,
+#navbar * {
     color: #fff;
 }
 
-.navbar nav {
+#navbar nav {
     font-size: 12px;
 }
 
-.navbar nav span>a {
+#navbar nav span>a {
     border: 2px solid rgb(238, 238, 238);
 }
 
-.navbar nav ul li a {
+#navbar nav ul li a {
     position: relative;
     transition: 0.2s ease-in-out;
     -o-transition: 0.2s ease-in-out;
@@ -24,7 +24,7 @@
     -moz-transition: 0.2s ease-in-out;
 }
 
-.navbar nav ul li a:hover {
+#navbar nav ul li a:hover {
     color: var(--light-red);
     transition: 0.2s ease-in-out;
     -o-transition: 0.2s ease-in-out;
@@ -32,7 +32,7 @@
     -moz-transition: 0.2s ease-in-out;
 }
 
-.navbar nav span a:hover {
+#navbar nav span a:hover {
     border-color: var(--light-red);
     color: var(--light-red);
     transition: 0.2s ease-in-out;
@@ -50,7 +50,7 @@
     color: var(--light-red)
 }
 
-.navbar .left button * {
+#navbar .left button * {
     transition: 0.2s ease-in-out;
     -o-transition: 0.2s ease-in-out;
     -webkit-transition: 0.2s ease-in-out;
@@ -65,7 +65,7 @@
     border: none !important;
 }
 
-.navbar .left button:hover * {
+#navbar .left button:hover * {
     color: var(--light-red);
     transition: 0.2s ease-in-out;
     -o-transition: 0.2s ease-in-out;
@@ -74,9 +74,9 @@
 }
 
 @media (max-width: 767px) {
-    .navbar nav.mobile {
+    #navbar nav.mobile {
         position: absolute;
-        z-index: 8;
+        z-index: 10;
         border-bottom: 1px solid var(--light-red);
         background-color: var(--dark);
         transform: translateY(-100%);
@@ -85,28 +85,28 @@
         -ms-transition: .6s ease-in;
         -o-transition: .6s ease-in;
     }
-    .navbar nav.mobile.show {
+    #navbar nav.mobile.show {
         transform: translateY(100%);
         transition: .6s ease-in;
         -webkit-transition: .6s ease-in;
         -ms-transition: .6s ease-in;
         -o-transition: .6s ease-in;
     }
-    .navbar nav.mobile ul,
-    .navbar nav.mobile li,
-    .navbar nav.mobile li a {
+    #navbar nav.mobile ul,
+    #navbar nav.mobile li,
+    #navbar nav.mobile li a {
         display: block;
         width: 100%;
         text-align: center;
     }
-    .navbar nav.mobile li a {
+    #navbar nav.mobile li a {
         background-color: transparent;
         transition: 0.3s ease-in-out;
         -o-transition: 0.3s ease-in-out;
         -webkit-transition: 0.3s ease-in-out;
         -moz-transition: 0.3s ease-in-out;
     }
-    .navbar nav.mobile li:hover a {
+    #navbar nav.mobile li:hover a {
         background-color: var(--light-red);
         color: #fff;
         transition: 0.3s ease-in-out;
@@ -114,14 +114,14 @@
         -webkit-transition: 0.3s ease-in-out;
         -moz-transition: 0.3s ease-in-out;
     }
-    .navbar .left {
+    #navbar .left {
         z-index: 14;
         background-color: var(--dark);
     }
 }
 
 @media (min-width: 768px) {
-    .navbar nav ul li a::after {
+    #navbar nav ul li a::after {
         content: '';
         width: 0;
         height: 1px;
@@ -133,7 +133,7 @@
         transform: translateX(-50%);
         transition: .3s ease-out;
     }
-    .navbar nav ul li a:hover::after {
+    #navbar nav ul li a:hover::after {
         content: '';
         width: 100%;
         transition: .3s ease-out;

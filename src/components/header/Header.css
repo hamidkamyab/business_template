@@ -1,19 +1,19 @@
-﻿.header .right,
-.header .left,
-.header .mouseIcon {
+﻿#header .right,
+#header .left,
+#header .mouseIcon {
     z-index: 6;
 }
 
-.header .right small {
+#header .right small {
     font-size: 12px;
     line-height: 1.5rem;
 }
 
-.header .button-box button {
+#header .button-box button {
     font-size: 12px;
 }
 
-.header .btn-orange {
+#header .btn-orange {
     background-color: var(--yellow);
     color: var(--dark) !important;
     transition: .3s ease;
@@ -22,7 +22,7 @@
     -ms-transition: .3s ease;
 }
 
-.header .btn-orange:hover {
+#header .btn-orange:hover {
     background-color: var(--light-yellow);
     transition: .3s ease-out;
     -o-transition: .3s ease-out;
@@ -30,17 +30,15 @@
     -ms-transition: .3s ease-out;
 }
 
-.header .mouseIcon {
-    bottom: 30px;
+#header .mouseIcon {
     width: 40px;
     height: 40px;
     background-color: var(--blue);
     border-radius: 50%;
     padding: 5px;
-    left: 50%;
 }
 
-.header .mouseIcon .m-icon {
+#header .mouseIcon .m-icon {
     animation: .8s mouseAnimation infinite alternate;
 }
 
@@ -54,17 +52,18 @@
 }
 
 @media (min-width:768px) {
-    .header::after {
-        content: '';
-        position: absolute;
-        background: url('../../../public/imgs/header-bg.png');
-        background-repeat: repeat-y;
-        width: 25%;
-        height: 100%;
-        left: 0;
-        top: 0;
-    }
-    .header .left img {
+    #header .left img {
         max-height: 65vh;
+        transition: .3s ease-out;
+        -o-transition: .3s ease-out;
+        -webkit-transition: .3s ease-out;
+        -ms-transition: .3s ease-out;
+    }
+    #header .left img:hover {
+        transform: scale(1.025);
+        transition: .3s ease-out;
+        -o-transition: .3s ease-out;
+        -webkit-transition: .3s ease-out;
+        -ms-transition: .3s ease-out;
     }
 }
