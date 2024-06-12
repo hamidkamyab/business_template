@@ -7,69 +7,71 @@ import * as MD from 'react-icons/md'
 import './Features.css'
 
 function Features() {
-  return (
-    <section id='features' className='py-5'>
+    return (
+        <section id='features' className='py-5'>
 
-        <div className="container d-flex flex-column gap-2 align-items-center justify-content-center">
-            <div className="title d-flex align-items-center gap-1">
-                <IO5.IoDiamond className='icon' size={24} />
-                <h5 className='m-0 p-0'>ویژگی های اصلی</h5>
-            </div>
-            <small className='under-title' >لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است.</small>
+            <div className="container d-flex flex-column gap-4 align-items-center justify-content-center">
+                <div className="titleBox d-flex flex-column">
+                    <div className="title d-flex align-items-center gap-1 justify-content-center">
+                        <IO5.IoDiamond className='icon' size={24} />
+                        <h5 className='m-0 p-0'>ویژگی های اصلی</h5>
+                    </div>
+                    <small className='under-title' >لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است.</small>
+                </div>
 
-            <div className='features-list col-12 d-flex'>
-                <div className="col-6 d-flex justify-content-end align-items-center">
-                  <img src="./imgs/phone-features.png" alt="" className='mt-4' />
-                </div>
-                <div className="col-6 pt-4">
-                    <ul className='p-0 m-0 list-unstyled d-flex flex-column gap-2 w-75'>
-                        <li className=' d-flex align-items-start gap-3'>
-                            <div className="iconBox position-relative d-flex justify-content-center align-items-center">
-                                <BS.BsHexagon size={32} className='position-absolute' />
-                                <BS.BsPersonStanding />
-                            </div>
-                            <div className="textBox">
-                                <h6 className='m-0 p-0'>برای شما طراحی شده است.</h6>
-                                <p className='text-muted mt-1'>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است.</p>
-                            </div>
-                        </li>
-                        <li className=' d-flex align-items-start gap-3'>
-                            <div className="iconBox position-relative d-flex justify-content-center align-items-center">
-                                <BS.BsHexagon size={32} className='position-absolute' />
-                                <SI.SiDatabricks />
-                            </div>
-                            <div className="textBox">
-                                <h6 className='m-0 p-0'>برای شما طراحی شده است.</h6>
-                                <p className='text-muted mt-1'>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است.</p>
-                            </div>
-                        </li>
-                        <li className=' d-flex align-items-start gap-3'>
-                            <div className="iconBox position-relative d-flex justify-content-center align-items-center">
-                                <BS.BsHexagon size={32} className='position-absolute' />
-                                <MD.MdConnectWithoutContact />
-                            </div>
-                            <div className="textBox">
-                                <h6 className='m-0 p-0'>برای شما طراحی شده است.</h6>
-                                <p className='text-muted mt-1'>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است.</p>
-                            </div>
-                        </li>
-                        <li className=' d-flex align-items-start gap-3'>
-                            <div className="iconBox position-relative d-flex justify-content-center align-items-center">
-                                <BS.BsHexagon size={32} className='position-absolute' />
-                                <FA.FaGg />
-                            </div>
-                            <div className="textBox">
-                                <h6 className='m-0 p-0'>برای شما طراحی شده است.</h6>
-                                <p className='text-muted mt-1'>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است.</p>
-                            </div>
-                        </li>
-                    </ul>
+                <div className='features-list col-12 d-flex flex-wrap'>
+                    <div className="col-12 col-sm-6 d-flex justify-content-center justify-content-sm-end align-items-center">
+                        <img src="./imgs/phone-features.png" alt="" className='mt-4' />
+                    </div>
+                    <div className="col-12 col-sm-6 pt-4 d-flex justify-content-center justify-content-sm-start">
+                        <ul className='p-0 m-0 list-unstyled d-flex flex-column gap-2 w-100 w-lg-75'>
+                            <li className=' d-flex align-items-start gap-3'>
+                                <div className="iconBox position-relative d-flex justify-content-center align-items-center">
+                                    <BS.BsHexagon size={32} className='position-absolute' />
+                                    <BS.BsPersonStanding />
+                                </div>
+                                <div className="textBox">
+                                    <h6 className='m-0 p-0'>برای شما طراحی شده است.</h6>
+                                    <p className='text-muted mt-1'>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است.</p>
+                                </div>
+                            </li>
+                            <li className=' d-flex align-items-start gap-3'>
+                                <div className="iconBox position-relative d-flex justify-content-center align-items-center">
+                                    <BS.BsHexagon size={32} className='position-absolute' />
+                                    <SI.SiDatabricks />
+                                </div>
+                                <div className="textBox">
+                                    <h6 className='m-0 p-0'>برای شما طراحی شده است.</h6>
+                                    <p className='text-muted mt-1'>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است.</p>
+                                </div>
+                            </li>
+                            <li className=' d-flex align-items-start gap-3'>
+                                <div className="iconBox position-relative d-flex justify-content-center align-items-center">
+                                    <BS.BsHexagon size={32} className='position-absolute' />
+                                    <MD.MdConnectWithoutContact />
+                                </div>
+                                <div className="textBox">
+                                    <h6 className='m-0 p-0'>برای شما طراحی شده است.</h6>
+                                    <p className='text-muted mt-1'>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است.</p>
+                                </div>
+                            </li>
+                            <li className=' d-flex align-items-start gap-3'>
+                                <div className="iconBox position-relative d-flex justify-content-center align-items-center">
+                                    <BS.BsHexagon size={32} className='position-absolute' />
+                                    <FA.FaGg />
+                                </div>
+                                <div className="textBox">
+                                    <h6 className='m-0 p-0'>برای شما طراحی شده است.</h6>
+                                    <p className='text-muted mt-1'>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است.</p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
             </div>
-        </div>
-      
-    </section>
-  )
+
+        </section>
+    )
 }
 
 export default Features

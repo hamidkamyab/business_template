@@ -1,5 +1,5 @@
 import * as Vsc from "react-icons/vsc";
-import { Features, Header, Navbar } from "./components";
+import { Download, Features, Header, Navbar } from "./components";
 
 function App() {
   return (
@@ -11,6 +11,7 @@ function App() {
             <Header />
           </div>
           <Features />
+          <Download />
 
       </main>
 

@@ -27,9 +27,9 @@ function Header() {
                 </div>
 
                 <div className="w-100 d-flex justify-content-center mt-5">
-                    <div className="mouseIcon text-white d-flex justify-content-center align-items-center" role='button'>
+                    <a href='#features' className="mouseIcon text-white d-flex justify-content-center align-items-center" role='button'>
                         <S1.SlMouse size={22} className='m-icon' />
-                    </div>
+                    </a>
                 </div>
             </div>
         </section>

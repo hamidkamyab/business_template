@@ -1,12 +1,4 @@
-﻿#features .title .icon {
-    color: var(--light-red) !important;
-}
-
-#features .under-title {
-    font-size: 11px;
-}
-
-#features .features-list img {
+﻿#features .features-list img {
     max-width: 240px;
 }
 
