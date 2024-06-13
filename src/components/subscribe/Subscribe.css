@@ -1,7 +1,6 @@
 ﻿#subscribe {
     background: url('../../../public/imgs/subscribe-bg.png') no-repeat fixed;
     background-size: cover;
-    background-position: 0 150px;
 }
 
 #subscribe .title,

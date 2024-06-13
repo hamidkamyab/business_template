@@ -11,7 +11,7 @@ const Navbar = () => {
     }
 
     return (
-        <section id='navbar' className='navbar container-md d-flex flex-column-reverse flex-md-row align-items-center justify-content-between pt-0 pt-md-4 gap-3 gap-md-0'>
+        <section id='navbar' className='navbar container-md d-flex flex-column-reverse flex-md-row align-items-center justify-content-between p-0 pt-md-3 gap-3 gap-md-0'>
             <nav className={`mobile ${showMenu?'show':''} col-12  col-md-8 col-lg-6 d-flex flex-md-row flex-column align-items-center gap-3 px-2 py-3 py-md-0`}>
                 <span><a href="#" className='d-block p-2 rounded-2'>آموزش بیشتر</a></span>
                 <ul className='list-unstyled d-flex flex-md-row flex-column align-items-center gap-3 gap-md-2 p-0 m-0'>

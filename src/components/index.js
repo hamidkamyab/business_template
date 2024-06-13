@@ -3,6 +3,6 @@ import Header from './header/Header'
 import Features from './features/Features';
 import Download from './download/Download';
 import Subscribe from './subscribe/Subscribe';
-// import Faq from './faq/Faq';
+import Faq from './faq/Faq';
 
-export { Navbar, Header, Features, Download, Subscribe };
+export { Navbar, Header, Features, Download, Subscribe, Faq };

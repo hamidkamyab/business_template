@@ -33,6 +33,7 @@ body {
 
 .headerBox {
     background-color: var(--dark);
+    padding-top: 60px;
 }
 
 section {
@@ -78,6 +79,7 @@ a {
     position: relative;
     padding-bottom: 10px;
     margin-bottom: 15px;
+    color: var(--dark);
 }
 
 .titleBox .title::after {
