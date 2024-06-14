@@ -1,5 +1,5 @@
 import * as Vsc from "react-icons/vsc";
-import { Download, Faq, Features, Header, Navbar, Subscribe } from "./components";
+import { Download, Faq, Features, Footer, Header, Navbar, Subscribe } from "./components";
 
 function App() {
   return (
@@ -13,12 +13,10 @@ function App() {
         <Download />
         <Subscribe />
         <Faq />
-
       </main>
+      <Footer />
 
-      {/* <div className="footer text-center py-3">
-        <small> طراحی شده توسط <a href="https://hamidkamyab.ir/" target="_blank" className="text-muted">حمید کامیاب</a></small>
-      </div> */}
+      
     </div>
   );
 }

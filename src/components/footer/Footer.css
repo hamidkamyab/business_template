@@ -1,0 +1,117 @@
+﻿#footer {
+    background-color: var(--purple-blue);
+    overflow: visible !important;
+    direction: rtl;
+}
+
+#footer::after {
+    content: '';
+    width: 160px;
+    height: 60px;
+    background-color: #fff;
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 0;
+    border-radius: 0 70px 70px 70px;
+}
+
+#footer .footerBox h6 {
+    font-size: 15px;
+}
+
+#footer .footerBox ul {
+    margin: 0;
+    padding: 0;
+}
+
+#footer .footerBox ul * {
+    color: #fff;
+    transition: .3s ease-in-out;
+    -webkit-transition: .3s ease-in-out;
+    -o-transition: .3s ease-in-out;
+    -ms-transition: .3s ease-in-out;
+}
+
+#footer .footerBox .footer-item {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    padding: 3px 6px;
+}
+
+#footer .footerBox .footer-item .dot-icon {
+    margin-left: -4px;
+}
+
+#footer .footerBox .footer-item a {
+    font-size: 12px;
+}
+
+#footer .footerBox ul .footer-item:hover * {
+    color: var(--light-yellow);
+    transition: .3s ease-in-out;
+    -webkit-transition: .3s ease-in-out;
+    -o-transition: .3s ease-in-out;
+    -ms-transition: .3s ease-in-out;
+}
+
+#footer .contact .footer-item {
+    font-size: 13px;
+    display: flex;
+    align-items: start;
+}
+
+#footer .contact .footer-item .item-content {
+    margin-right: 8px;
+}
+
+#footer .contact .footer-item .item-title {
+    margin-right: 4px;
+}
+
+#footer .about-us p {
+    text-align: justify;
+    font-size: 12px;
+    line-height: 1.5rem;
+    height: 200px;
+    overflow: hidden;
+}
+
+#footer .about-us p.open {
+    height: auto;
+    padding-bottom: 24px;
+}
+
+#footer .btnLoadAbout {
+    padding: 0;
+    background-color: var(--purple-blue);
+    border: none;
+    color: #fff;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    gap: 3px;
+}
+
+#footer .btnLoadAbout::before {
+    content: '';
+    height: 60px;
+    width: 100%;
+    background: linear-gradient(180deg, hsla(0, 0%, 100%, 0) 10%, var(--purple-blue));
+    position: absolute;
+    top: -60px;
+    display: block;
+}
+
+#footer .btnLoadAbout.open::before {
+    display: none;
+}
+
+#footer .footer-logo {
+    z-index: 4;
+    width: 128px;
+    filter: brightness(40%) hue-rotate(-45deg);
+    top: 16px;
+    left: 10px;
+}
