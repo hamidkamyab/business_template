@@ -1,6 +1,7 @@
 ﻿import React from 'react'
 import * as BI from 'react-icons/bi'
 import './Download.css'
+
 function Download() {
     return (
         <section id='download' className='py-5'>

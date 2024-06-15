@@ -6,14 +6,28 @@
 
 #footer::after {
     content: '';
-    width: 160px;
-    height: 60px;
+    width: 180px;
+    height: 80px;
     background-color: #fff;
     position: absolute;
     display: block;
     top: 0;
     left: 0;
     border-radius: 0 70px 70px 70px;
+    z-index: 5;
+}
+
+#footer::before {
+    content: '';
+    width: 160px;
+    height: 60px;
+    background-color: var(--purple-blue);
+    position: absolute;
+    display: block;
+    top: 10px;
+    left: 10px;
+    border-radius: 0 70px 70px 70px;
+    z-index: 6;
 }
 
 #footer .footerBox h6 {
@@ -109,9 +123,8 @@
 }
 
 #footer .footer-logo {
-    z-index: 4;
+    z-index: 7;
     width: 128px;
-    filter: brightness(40%) hue-rotate(-45deg);
-    top: 16px;
-    left: 10px;
+    top: 26px;
+    left: 24px;
 }

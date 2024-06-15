@@ -1,4 +1,4 @@
-﻿import React from 'react'
+﻿import React, { useEffect } from 'react'
 import * as IO5 from 'react-icons/io5'
 import * as BS from 'react-icons/bs'
 import * as FA from 'react-icons/fa'
@@ -11,7 +11,7 @@ function Features() {
         <section id='features' className='py-5'>
 
             <div className="container d-flex flex-column gap-4 align-items-center justify-content-center">
-                <div className="titleBox d-flex flex-column">
+                <div className="titleBox" >
                     <div className="title d-flex align-items-center gap-1 justify-content-center">
                         <IO5.IoDiamond className='icon' size={24} />
                         <h5 className='m-0 p-0'>ویژگی های اصلی</h5>
