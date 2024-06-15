@@ -15,10 +15,11 @@ const Navbar = () => {
             <nav className={`mobile ${showMenu?'show':''} col-12  col-md-8 col-lg-6 d-flex flex-md-row flex-column align-items-center gap-3 px-2 py-3 py-md-0`}>
                 <span><a href="#" className='d-block p-2 rounded-2'>آموزش بیشتر</a></span>
                 <ul className='list-unstyled d-flex flex-md-row flex-column align-items-center gap-3 gap-md-2 p-0 m-0'>
-                    <li><a href="#" className='p-2 p-md-0 px-md-2'>خانه</a></li>
-                    <li><a href="#" className='p-2 p-md-0 px-md-2'>امکانات</a></li>
-                    <li><a href="#" className='p-2 p-md-0 px-md-2'>دانلود</a></li>
-                    <li><a href="#" className='p-2 p-md-0 px-md-2'>مشترک شوید</a></li>
+                    <li><a href="#header" className='p-2 p-md-0 px-md-2'>خانه</a></li>
+                    <li><a href="#features" className='p-2 p-md-0 px-md-2'>امکانات</a></li>
+                    <li><a href="#download" className='p-2 p-md-0 px-md-2'>دانلود</a></li>
+                    <li><a href="#subscribe" className='p-2 p-md-0 px-md-2'>مشترک شوید</a></li>
+                    <li><a href="#faq" className='p-2 p-md-0 px-md-2'>سوالات رایج</a></li>
                 </ul>
             </nav>
 
